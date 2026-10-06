@@ -1,5 +1,5 @@
 -- Create Patients table
-\\Creates a table named Patients which contains the following information for each entry: the patient id, name, age, gender and city.
+//Creates a table named Patients which contains the following information for each entry: the patient id, name, age, gender and city.
 CREATE TABLE Patients (
     patient_id INTEGER PRIMARY KEY,
     name TEXT NOT NULL,
