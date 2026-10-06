@@ -1,0 +1,913 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNhSCQ0CVtSpFM1gSCJB9J1",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ridanoor0110/DSC_110/blob/main/week4/intro_to_python_9_29\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Hello World!\n",
+        "\n",
+        "In this part, we added a text block"
+      ],
+      "metadata": {
+        "id": "5PHSdhXlG8Ff"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('Hello World!')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-vrSc07THOM7",
+        "outputId": "b4fef543-76e0-428c-9acf-e3ec89172ca6"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello World!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Variables"
+      ],
+      "metadata": {
+        "id": "Myo8gy4HIMD6"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name = \"Rida\"\n",
+        "#Here we assigned the string value \"Rida\" to the variable called name, which we then printed in the next line"
+      ],
+      "metadata": {
+        "id": "QjVgy23IIOE0"
+      },
+      "execution_count": 3,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(name)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "z3_qlBeKI2Px",
+        "outputId": "1d1f1548-8155-4a7d-84ad-58eb57620cfd"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Rida\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"my name is: \", name)\n",
+        "\n",
+        "#Prints the text, my name is, followed by the value inserted into the variable name"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yXgznbxkJ6L2",
+        "outputId": "0ff4a74e-46c5-4df8-f778-d80205d4abed"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "my name is:  Rida\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"my name is: \", name)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4rfBT-2hKCnG",
+        "outputId": "0f72e91e-5085-45f5-f9c7-01e687763f9b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "my name is:  Rida\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "age = 67\n",
+        "print (age + 5)\n",
+        "\n",
+        "#assigns the value of 67 to the variable called age, then prints its value + 5"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jyg_Fh9dLOFJ",
+        "outputId": "f844fe90-4c8a-4f23-bae2-c24cbf076c90"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "72\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "age_at_graduation = age + 4\n",
+        "#assigns the value stored in age + 4 to the variable age_at_graduation, then prints its value"
+      ],
+      "metadata": {
+        "id": "joUtSPdGLRpa"
+      },
+      "execution_count": 12,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print (age_at_graduation)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CdmzLnIKLW4B",
+        "outputId": "8fbed244-b065-4216-e6db-a3df1f7b10f4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "71\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print (\"my name is \", name, \"my age is \", age, \"and I graduate at the age of \", age_at_graduation)\n",
+        "#Prints the values of each variable with text that assigns them context (e.g. my name is, provides context for the variable, age)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "K1tFBTy4Ls_t",
+        "outputId": "cfcf86dd-cbea-4c38-ed96-b7c535bb563f"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "my name is  Rida my age is  67 and I graduate at the age of  71\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print (f'My name is [name]')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fYpqp49dM4D6",
+        "outputId": "bc383898-1f61-4e6f-d616-05c0e90d85a6"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "My name is [name]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(f'my name is {name}')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ec6-gHtEM-82",
+        "outputId": "4721c8a0-73b3-458c-8daf-931c284de2bf"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "my name is Rida\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(f'my name is {name} and my age is {age} and I will graduate at the age of {age_at_graduation}')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ScbZJcvHNr4H",
+        "outputId": "2eac4ab1-4667-457f-b3eb-2fc6d24e7834"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "my name is Rida and my age is 67 and I will graduate at the age of 71\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(name)[1]\n",
+        "#Shows the error of inserting the square brackets outside the variable bracket"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 176
+        },
+        "id": "omNa8hxAN53E",
+        "outputId": "1caba40d-2a38-4730-9cc1-1415a85dd389"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Rida\n"
+          ]
+        },
+        {
+          "output_type": "error",
+          "ename": "TypeError",
+          "evalue": "'NoneType' object is not subscriptable",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipykernel_1709/1752209009.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mname\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;36m1\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      2\u001b[0m \u001b[0;31m#Shows the error of inserting the square brackets outside the variable bracket\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mTypeError\u001b[0m: 'NoneType' object is not subscriptable"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(name[1])\n",
+        "#Inserting a square bracket into the variable bracket with a number will print the letter/character at that position in the value stores in the variable"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "IzLNIBPTN_64",
+        "outputId": "f71434a6-5de4-4fe8-d48e-29ac6d78a5f1"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "i\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(name[0])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "DoF63o5eOGRd",
+        "outputId": "5bfee4a0-a32e-4f56-97f3-f2546ae4d427"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "R\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#accessing the last character looks like this\n",
+        "print(name[-1])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "dMvEXTgKPBp5",
+        "outputId": "5a04114b-bc39-43be-b7f2-5fb833357238"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "a\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#accessing a range of characters\n",
+        "print(name[0:2])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kxR38T2ZPaw7",
+        "outputId": "4a5734d0-a9f7-4dc9-f820-e54498cf223b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ri\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Data Structures\n"
+      ],
+      "metadata": {
+        "id": "Q4rPYl-sP5xU"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Lists"
+      ],
+      "metadata": {
+        "id": "uQA9oVetQGV2"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "ages = [5, 7, 9, 13, 15, 17]\n",
+        "#lists have square brackets\n",
+        "print(f\"the ages of these students are {ages}\")\n",
+        "#prints a list along with the context of the variables stored in our list"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zcseFtdhQ1C5",
+        "outputId": "a78fb196-2489-48e3-ba1c-3358093fc26f"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "the ages of these students are [5, 7, 9, 13, 15, 17]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(ages[0])\n",
+        "#prints value stored in position 0 of the list"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cdm9mVv1REe6",
+        "outputId": "b08686e0-fd0a-4d7b-d10f-e8a243690e47"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print (ages[-1])\n",
+        "#prints the value stored in the last position of the list"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "b5Sr4c85ROC-",
+        "outputId": "c5801c7d-f282-4b6b-ef62-2688770f2676"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "17\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#lists are accessed by position and the information can be changed accordingly\n",
+        "ages[0] = 6\n",
+        "print(ages)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ySePEMc7SAq-",
+        "outputId": "ca81e30d-bd5f-4235-854c-77f75b2f3a3c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[6, 7, 9, 13, 15, 17]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "names = [\"maria\", \"jony\", \"jemimah\", \"hawa\"]\n",
+        "#assigns values to the positions in the list called names"
+      ],
+      "metadata": {
+        "id": "D8jcDLsTSMbH"
+      },
+      "execution_count": 20,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(names[2])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QFLmVGsCSVZy",
+        "outputId": "f0bba031-7324-4e55-9122-66789738a38a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "jemimah\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Dictionaries"
+      ],
+      "metadata": {
+        "id": "rBek2Se9VrwL"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "patient_ages = {\"John\": 35, \"Maria\": 40, \"Alice\": 39}\n",
+        "print(patient_ages[\"John\"])\n",
+        "#dictionaries start with curly brackets\n",
+        "#dictionaries have Key and Value pairs"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BOJ6gF4oVu6-",
+        "outputId": "b6ae8680-1240-46a3-894c-35730a072119"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "35\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#IF/Conditionals"
+      ],
+      "metadata": {
+        "id": "d7c_jICdXDIp"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "systolic_bp = 130\n",
+        "if systolic_bp > 120:\n",
+        "  print(\"high\")\n",
+        "else:\n",
+        "  print(\"normal\")\n",
+        "\n",
+        "#if the value stored in systolic_bp is greater than 120, which in this case it is, the code will print the text, 'high'. otherwise, the condition will print 'normal'."
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "2MIOXyb4XHz3",
+        "outputId": "a23214b2-c2a8-4a71-86e2-e0e52b5ebcb8"
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "high\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Functions"
+      ],
+      "metadata": {
+        "id": "3yhvK1LxZRE1"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def add_one(number):\n",
+        "  return number + 1\n",
+        "\n",
+        "#this function adds one to the value stored in the variable, number"
+      ],
+      "metadata": {
+        "id": "pAAuyZfoZTdi"
+      },
+      "execution_count": 22,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "add_one(3)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fhPLYRB-Zdwf",
+        "outputId": "e2ea271d-f90c-41a2-a470-dbd815b41da3"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "4"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 45
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#the function below carries out a bp check by checking the value stored in the variable systolic_bp, if it is greater than 120 the function will store the value \"high\" in the variable bp_result, otherwise it will store \"normal\", and print the respective value of bp_result\n",
+        "def bpcheck(systolic_bp):\n",
+        "  if systolic_bp > 120:\n",
+        "    bp_result = \"high\"\n",
+        "  else:\n",
+        "    bp_result = \"normal\"\n",
+        "  return bp_result\n",
+        "\n",
+        "bpcheck(135)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 36
+        },
+        "id": "zCcyfIaIZZB6",
+        "outputId": "ddd4129a-e18a-4f2e-9689-0436c32f5cca"
+      },
+      "execution_count": 23,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'high'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 23
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "bpcheck(95)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 36
+        },
+        "id": "7EtsPVmRaK2Q",
+        "outputId": "af472410-3b3b-472c-c8a1-dec0627d5611"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'normal'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 52
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Loops"
+      ],
+      "metadata": {
+        "id": "pb5kpznDbvhp"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "bp_list = [120, 135, 170, 110, 100]\n",
+        "for bp in bp_list:\n",
+        "  print(bpcheck(bp))\n",
+        "#applies the previous function of a bp check onto all the values contained in this list of bp values and prints the bp result accordingly"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "u-4nSJ32buvM",
+        "outputId": "60ab3a02-6362-4387-9ddb-35fc8c862d32"
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "normal\n",
+            "high\n",
+            "high\n",
+            "normal\n",
+            "normal\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#this function classifies bmi according to a value entered into it. The value entered is assigned to the variable weight, and is compared to the criteria of each bmi index and then returns the according category of bmi for that weight.\n",
+        "def bmi(weight):\n",
+        "  if weight < 18:\n",
+        "    print(\"Underweight\")\n",
+        "  if weight > 18 and weight < 25:\n",
+        "    print (\"Normal\")\n",
+        "  if weight > 25 and weight < 30:\n",
+        "    print (\"Obese\")\n",
+        "  if weight > 30:\n",
+        "    print (\"Overweight\")\n",
+        "  return weight"
+      ],
+      "metadata": {
+        "id": "MPlXSdDudq23"
+      },
+      "execution_count": 25,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "bmi(24)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VlYzr-bEd9gj",
+        "outputId": "d7fc7ceb-991d-41e6-cd04-b689fa6a0b90"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Normal\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "24"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 69
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#calculates bmi from height and weight\n",
+        "print('enter your height in metres, followed by weight in kilograms')\n",
+        "def calculate(height, weight):\n",
+        "  bmi = weight / height ** 2\n",
+        "  return bmi\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Tl9SMKlYgERc",
+        "outputId": "01b360e1-800e-4e17-c4ff-e3689fc7270d"
+      },
+      "execution_count": 27,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter your height in metres, followed by weight in kilograms\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "5oDzaepSitWU"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
